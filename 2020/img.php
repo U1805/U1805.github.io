@@ -1,9 +1,8 @@
 <?php
-/**
-* PHP随机图显示
-*/
-header('Content-Type: text/html; charset=UTF-8');
-$img_array = glob("./img/*.jpg",GLOB_BRACE);
+ //这将得到一个文件夹中的所有gif，jpg和png图片的数组 
+$img_array = glob("./images/*/*.{gif,jpg,png}",GLOB_BRACE);
+ //从数组中选择一个随机图片 
 $img = array_rand($img_array);
-header("location:.$img_array[$img]");
-?>
+//在页面显示图片 
+header("location:.$img_array[$img]"); 
+ ?>
