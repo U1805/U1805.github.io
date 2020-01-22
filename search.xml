@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>机器学习——贝叶斯分类(python实现)</title>
+    <url>/2020/01/22/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E2%80%94%E2%80%94%E8%B4%9D%E5%8F%B6%E6%96%AF%E5%88%86%E7%B1%BB-python%E5%AE%9E%E7%8E%B0/</url>
+    <content><![CDATA[<p>朴素贝叶斯（Naive Bayesian）是最为广泛使用的分类方法，它以概率论为基础，是基于贝叶斯定理和特征条件独立假设的分类方法。</p>
+<h1 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h1><p><strong>朴素</strong>贝叶斯（Naive Bayesian）是基于贝叶斯定理和特征条件独立假设原则的分类方法。通过给出的特征计算分类的概率，选取概率大的情况进行分类。也是基于<strong>概率论</strong>的一种机器学习分类方法。分类目标确定，属于监督学习。</p>
+<blockquote>
+<p>①之所以叫朴素贝叶斯，因为它简单、易于操作，基于特征独立性假设，假设各个特征不会相互影响，这样就大大减小了计算概率的难度。</p>
+</blockquote>
+<blockquote>
+<p>②通过概率来衡量事件发生的可能性。概率论和统计学恰好是两个相反的概念，统计学是抽取部分样本进行统计来估算总体的情况，而概率论是通过总体情况来估计单个事件或者部分事情的发生情况。因此，概率论需要已知的数据去预测未知的事件。 </p>
+</blockquote>
+<h2 id="条件概率"><a href="#条件概率" class="headerlink" title="条件概率"></a>条件概率</h2><p>某个事件已发生的情况下另外一个事件发生的概率。计算公式如下：<strong>P(A|B)=P(A∩B) / P(B)</strong></p>
+<p>简单理解：画维恩图，两个圆圈相交的部分就是A发生B也发生了，因为求的是B发生下A发生的概率。B相当于一个新的样本空间。AB/B即可。</p>
+<p><img alt data-src="https://tva2.sinaimg.cn/large/006N656dly1gb5porcksyj3053032a9w.jpg" class="lazyload"></p>
+<p>概率相乘法则：P(A∩B)=P(A)P(B|A) or P(A∩B)=P(B)P(A|B)</p>
+<p>独立事件的概率：P(A∩B)=P(A)P(B)</p>
+<h2 id="贝叶斯定理"><a href="#贝叶斯定理" class="headerlink" title="贝叶斯定理"></a>贝叶斯定理</h2><p>如果有穷k个互斥事件，B1， B2，，，Bk 并且 P(B1)+P(B2)+⋅⋅⋅+P(Bk)=1和一个可以观测到的事件A，那么有：<br><img alt data-src="https://tva4.sinaimg.cn/large/006N656dly1gb5pmep9abj30xc0dzgs2.jpg" class="lazyload"></p>
+<h2 id="分类原理"><a href="#分类原理" class="headerlink" title="分类原理"></a>分类原理</h2><p>基于概率论，二分类问题如下：<br>如果p1 &gt; p2, 分入类别1； 否则分入类别2。</p>
+<p>其次，贝叶斯定理，有<br>p(ci|x,y) = p(x,y|ci) * p(ci) / p(x,y)<br>x, y 表示特征变量，如下例子中的单词。Ci表示类别。p(ci | x, y) 即表示在特征x， y出现的情况下，分入类别Ci的概率。结合如上：<br>p(ci | x, y) &gt; p(cj | x, y), 分入类别i， 否则分入类别j。</p>
+<p>贝叶斯定理最大的好处是可以用已知的三个概率去计算未知的概率，而如果仅仅是为了比较p(ci|x,y)和p(cj|x,y)的大小，只需要已知两个概率即可，分母相同，比较p(x,y|ci)p(ci)和p(x,y|cj)p(cj)即可。$x_1$</p>
+]]></content>
+      <categories>
+        <category>笔记 - Python</category>
+        <category>笔记 - 机器学习</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>笔记</tag>
+        <tag>Python</tag>
+        <tag>机器学习</tag>
+        <tag>贝叶斯概率</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Windows必装软件推荐</title>
     <url>/2020/01/18/Windows%E5%BF%85%E8%A3%85%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</url>
     <content><![CDATA[<p>Windows上的软件数不胜数,同一类型的软件众多。到底哪一款才是适合你自己的，只有自己亲自试用过才知道。以下是我比较喜欢的软件，特别推荐给各位。</p>
