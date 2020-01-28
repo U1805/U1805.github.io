@@ -123,7 +123,7 @@ array([ 0.,  0.,  1.,  0.,  1.,  0.,  0.,  0.,  1.,  0.,  0.,  0.,  0.,
 ]]></content>
       <categories>
         <category>笔记 - Python</category>
-        <category>笔记 - 机器学习</category>
+        <category>Python - 机器学习</category>
       </categories>
       <tags>
         <tag>教程</tag>
@@ -651,10 +651,10 @@ array([ 0.,  0.,  1.,  0.,  1.,  0.,  0.,  0.,  1.,  0.,  0.,  0.,  0.,
         <category>游戏</category>
       </categories>
       <tags>
+        <tag>R18</tag>
+        <tag>游戏</tag>
         <tag>Alicesoft</tag>
         <tag>夏娃年代记</tag>
-        <tag>游戏</tag>
-        <tag>R18</tag>
         <tag>RPG冒险</tag>
       </tags>
   </entry>
@@ -744,9 +744,9 @@ array([ 0.,  0.,  1.,  0.,  1.,  0.,  0.,  0.,  1.,  0.,  0.,  0.,  0.,
         <category>游戏</category>
       </categories>
       <tags>
-        <tag>游戏</tag>
-        <tag>R18</tag>
         <tag>经营</tag>
+        <tag>R18</tag>
+        <tag>游戏</tag>
       </tags>
   </entry>
   <entry>
