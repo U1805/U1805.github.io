@@ -235,11 +235,15 @@ array([ 0.,  0.,  1.,  0.,  1.,  0.,  0.,  0.,  1.,  0.,  0.,  0.,  0.,
     <url>/2020/01/18/Windows%E5%BF%85%E8%A3%85%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</url>
     <content><![CDATA[<p>Windows上的软件数不胜数,同一类型的软件众多。到底哪一款才是适合你自己的，只有自己亲自试用过才知道。以下是我比较喜欢的软件，特别推荐给各位。</p>
 <ol>
-<li><p>下载工具：<a href="https://www.internetdownloadmanager.com/" target="_blank" rel="noopener">Internet Download Manager</a>、BaiduPCS-Go（百度网盘下载）</p>
+<li><p>下载工具：<del><a href="https://www.internetdownloadmanager.com/" target="_blank" rel="noopener">Internet Download Manager</a>、PanDownload</del></p>
+<p><del>亿寻、BaiduPCS-Go</del></p>
+<p>Neat Download Manager 、雷鸟下载</p>
 </li>
-<li><p>聊天软件：<del><a href="https://tim.qq.com/index.html" target="_blank" rel="noopener">tim</a></del> → QQ和 <a href="https://www.microsoft.com/en-us/p/wechat-for-windows/9nblggh4slx7?activetab=pivot:overviewtab" target="_blank" rel="noopener">微信</a></p>
+<li><p>聊天软件：<del><a href="https://tim.qq.com/index.html" target="_blank" rel="noopener">tim</a></del> </p>
+<p>  QQ 和 <a href="https://www.microsoft.com/en-us/p/wechat-for-windows/9nblggh4slx7?activetab=pivot:overviewtab" target="_blank" rel="noopener">微信</a></p>
 </li>
-<li><p>截图软件： <a href="https://zh.snipaste.com/" target="_blank" rel="noopener">snipaste</a> 这个必须推荐</p>
+<li><p>截图软件： <del>SETUNA</del></p>
+<p><a href="https://zh.snipaste.com/" target="_blank" rel="noopener">snipaste</a> 这个必须推荐</p>
 </li>
 <li><p>编辑器： <a href="https://code.visualstudio.com/" target="_blank" rel="noopener">vscode</a></p>
 </li>
@@ -249,15 +253,21 @@ array([ 0.,  0.,  1.,  0.,  1.,  0.,  0.,  0.,  1.,  0.,  0.,  0.,  0.,
 </li>
 <li><p>清理软件： <a href="https://geekuninstaller.com/" target="_blank" rel="noopener">geek</a>、<a href="https://www.wisecleaner.com/wise-care-365.html" target="_blank" rel="noopener">Wise Care 365</a> 和 <a href="https://www.ccleaner.com/" target="_blank" rel="noopener">CCleaner</a></p>
 </li>
-<li><p>压缩软件：<a href="http://www.bandisoft.com/" target="_blank" rel="noopener">Bandizip</a></p>
+<li><p>压缩软件：<del>winrar</del></p>
+<p><del>7z</del></p>
+<p><a href="http://www.bandisoft.com/" target="_blank" rel="noopener">Bandizip</a></p>
 </li>
 <li><p>简单视频制作：<a href="https://www.adobe.com/hk_zh/products/premiere/free-trial-download.html" target="_blank" rel="noopener">Adobe Premiere</a> (编辑视频） <a href="https://you-get.org/" target="_blank" rel="noopener">you-get</a>（下载视频）</p>
 </li>
-<li><p>效率： <a href="https://www.voidtools.com/zh-cn/" target="_blank" rel="noopener">everything</a>、<del><a href="http://www.wox.one/" target="_blank" rel="noopener">wox</a></del> → <a href="http://www.u.tools/" target="_blank" rel="noopener">uTools</a></p>
+<li><p>效率： <del><a href="http://www.wox.one/" target="_blank" rel="noopener">wox</a></del> </p>
+<p><a href="https://www.voidtools.com/zh-cn/" target="_blank" rel="noopener">everything</a>、<a href="http://www.u.tools/" target="_blank" rel="noopener">uTools</a></p>
 </li>
 <li><p>插件： <a href="https://chrome.google.com/webstore/detail/tampermonkey-beta/gcalenpjmijncebpfijmoaglllgpjagf?hl=zh-CN" target="_blank" rel="noopener">tampermonkey</a>、<a href="https://chrome.google.com/webstore/detail/chrono-manager-button/nimngehdfcodchaoncbkijfocmfnpebg?hl=zh-CN" target="_blank" rel="noopener">chrono</a>、<a href="https://chrome.google.com/webstore/detail/%E5%BE%AE%E5%8D%9A%E5%9B%BE%E5%BA%8A/pinjkilghdfhnkibhcangnpmcpdpmehk?hl=zh-CN" target="_blank" rel="noopener">微博图床</a>、<a href="https://chrome.google.com/webstore/detail/%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/ikhdkkncnoglghljlkmcimlnlhkeamad?hl=zh-CN" target="_blank" rel="noopener">划词翻译</a>、Infinity、Dark Reader</p>
 </li>
-<li><p>模拟器： <a href="http://mumu.163.com/" target="_blank" rel="noopener">Mumu模拟器</a></p>
+<li><p>模拟器： <del>蓝叠模拟器</del></p>
+<p><a href="http://mumu.163.com/" target="_blank" rel="noopener">Mumu模拟器</a></p>
+</li>
+<li><p>其他： KeyCastOW 、 Officebox 、 RX 7 Audio Editor 、 Wallpaper 、 火绒安全软件 、 荐片播放器</p>
 </li>
 </ol>
 ]]></content>
